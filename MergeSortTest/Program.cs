@@ -9,6 +9,7 @@ namespace CSharpMergeSort
 
         static public void DoMerge(int[] numbers, int left, int mid, int right)
         {
+
             int[] temp = new int[numbers.Length];
             int i, left_end, num_elements, tmp_pos, right_start;
 
